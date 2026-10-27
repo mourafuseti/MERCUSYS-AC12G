@@ -63,3 +63,17 @@ sudo apt install python3-requests python3-pip -y
 👨‍💻 Autor
 
 Desenvolvido como parte dos estudos práticos de Defesa Cibernética e Engenharia de Software.
+
+1. Modelos Altamente Compatíveis (Alvo Direto)
+
+    Mercusys AC12G (Todas as revisões de hardware V1, V2 que rodam firmwares legados baseados em VxWorks).
+
+    Mercusys AC12 / AC10 / MW301R / MW325R (Roteadores da mesma linha que compartilham o mesmo ecossistema de firmware e expõem os mesmos endpoints /l3f, /ifc e /ipc na porta UPnP 1900).
+
+2. Modelos TP-Link Relacionados (Mesma Base de SDK)
+
+Como a Mercusys é uma submarca da TP-Link, muitas linhas de entrada antigas da TP-Link utilizam a mesma pilha UPnP e os mesmos nomes de rotas XML (igd.xml, /ipc.xml, etc.):
+
+    TP-Link Archer C50 / C60 / C20 (Versões antigas de firmware).
+
+    TP-Link TL-WR840N / TL-WR940N (Modelos clássicos de roteadores 10/100 que mantêm o serviço SSDP/UPnP ativado por padrão nas configurações de fábrica).
