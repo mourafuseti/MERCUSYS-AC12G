@@ -77,3 +77,29 @@ Como a Mercusys é uma submarca da TP-Link, muitas linhas de entrada antigas da 
     TP-Link Archer C50 / C60 / C20 (Versões antigas de firmware).
 
     TP-Link TL-WR840N / TL-WR940N (Modelos clássicos de roteadores 10/100 que mantêm o serviço SSDP/UPnP ativado por padrão nas configurações de fábrica).
+
+
+---
+# ┌──(root㉿kali)-[/home/kali/AC12G]
+└─# python3 main.py                           
+=================================================================
+ Extrator Completo de Informações WAN/LAN via SOAP - Lab
+=================================================================
+
+[*] Consultando Status e Uptime (/ipc - GetStatusInfo)...
+    [+] Status HTTP: 200
+    [+] Uptime do Equipamento: 126336l
+    [+] Status de Conexão (Raw/Pointer): 2152531408
+    [+] Erro de Conexão: ERROR_NONE
+
+[*] Consultando Endereço IP da WAN (/ipc - GetExternalIPAddress)...
+    [+] Status HTTP: 200
+    [+] IP Externo (WAN) Detectado: 192.168.0.1
+
+[*] Consultando Propriedades de Link Common (/ifc - GetCommonLinkProperties)...
+    [+] Status HTTP: 200
+    [+] Tipo de Acesso WAN: DSL
+    [+] Link Físico Status: Up
+    [+] Banda Downstream Máx: 100000
+
+=================================================================
